@@ -15,7 +15,7 @@ This is for Python usage.
   from the command line. 
   
 ```
-  C:\Users\IBM_ADMIN>cplex
+C:\Users\IBM_ADMIN>cplex
 
 Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.8.0.0
   with Simplex, Mixed Integer & Barrier Optimizers
@@ -26,24 +26,36 @@ Type 'help' for a list of available commands.
 Type 'help' followed by a command name for more
 information on commands.
 
-CPLEX>   
+CPLEX>   quit
 
 ```
 
+
 3. Install python package
 
-- For conda package manager
-https://anaconda.org/IBMDecisionOptimization/cplex
+- For Anaconda Navigator
++ Go to Environnement
++ Start a terminal from the *base* 
++ Follow https://anaconda.org/IBMDecisionOptimization/cplex
 
-https://anaconda.org/IBMDecisionOptimization/docplex
+```
+
+(base) C:\Users\IBM_ADMIN>conda install -c ibmdecisionoptimization docplex
+Solving environment: done
+
+```
+
 
 - For pip package manager
+TBD
 
-4. 
+4. Check the provided code is working
+TBD
 
-Done
-
-
+**Done**
 
 ## For MacOS
+
+TBD
+
 
