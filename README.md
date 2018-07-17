@@ -1,5 +1,5 @@
 
-# Installing CPLEX 12.8 on Windows and Mac OS
+# Installing CPLEX 12.8 on Windows and Mac OS for Python usage
 
 This is for Python usage.
 
@@ -11,7 +11,7 @@ This is for Python usage.
   CPLEX_studio128\cpoptimizer\bin\x64_win64
   are in the PATH variable. CPLEX_studio128 stands for your installation dir.
   
-2. Check by starting successfully cplex and cpoptimizer 
+1. Check by starting successfully cplex and cpoptimizer 
   from the command line. 
   
 ```
@@ -31,12 +31,12 @@ CPLEX>   quit
 ```
 
 
-3. Install python package
+1. Install docplex python package
 
-- For Anaconda Navigator
-+ Go to Environnement
-+ Start a terminal from the *base* 
-+ Follow https://anaconda.org/IBMDecisionOptimization/cplex
+* For Anaconda Navigator
+	* Go to Environnement
+	* Start a terminal from the **base** 
+	* Follow https://anaconda.org/IBMDecisionOptimization/docplex
 
 ```
 
@@ -45,11 +45,12 @@ Solving environment: done
 
 ```
 
+* For pip package manager
 
-- For pip package manager
 TBD
 
-4. Check the provided code is working
+1. Check the following provided code is working
+
 TBD
 
 **Done**
