@@ -3,7 +3,7 @@
 
 This is for Python usage.
 
-## For Windows
+## On Windows
 
 ### Installing CPLEX
 1. Ensure that : 
@@ -33,29 +33,37 @@ CPLEX>   quit
 
 1. Install docplex python package
 
-* For Anaconda Navigator
+* With Anaconda Navigator
 	* Go to Environnement
-	* Start a terminal from the **base** 
-	* Follow https://anaconda.org/IBMDecisionOptimization/docplex
+	* Start an **Anaconda terminal** from the **base** 
+	* Follow instruction at https://anaconda.org/IBMDecisionOptimization/docplex
 
 ```
-
 (base) C:\Users\IBM_ADMIN>conda install -c ibmdecisionoptimization docplex
 Solving environment: done
-
 ```
 
-* For pip package manager
+* With pip package manager
 
-TBD
+```
+pip install docplex
+```
+2. Set up docplex so that python cplex codes run locally.
 
-1. Check the following provided code is working
+Define the *PYTHONPATH* environment variable
 
-TBD
+```
+set PYTHONPATH=YOURCPLEXINSTALLDIR\cplex\python-version\x64_win64
+
+```
+- yourcplexinstalldir being the install dir set with the installer.
+- python-version being 2.7, 3.5 or 3.7
+
+
 
 **Done**
 
-## For MacOS
+## On MacOS
 
 TBD
 
