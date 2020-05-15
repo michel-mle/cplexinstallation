@@ -5,7 +5,7 @@ This gives instruction to install the library docplex.
 
 ## On Windows
 
-### Installing CPLEX
+### Installing Docplex
 1. Ensure that : 
   CPLEX_studio128\cplexdir\bin\cplex\bin\x64_win64
   CPLEX_studio128\cpoptimizer\bin\x64_win64
