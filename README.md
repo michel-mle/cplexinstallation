@@ -30,7 +30,6 @@ CPLEX> quit
 
 ```
 
-
 1. Install docplex python package
 
 * With Anaconda Navigator
