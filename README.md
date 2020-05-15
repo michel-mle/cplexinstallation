@@ -26,7 +26,7 @@ Type 'help' for a list of available commands.
 Type 'help' followed by a command name for more
 information on commands.
 
-CPLEX>   quit
+CPLEX> quit
 
 ```
 
@@ -58,7 +58,6 @@ set PYTHONPATH=YOURCPLEXINSTALLDIR\cplex\python-version\x64_win64
 ```
 - yourcplexinstalldir being the install dir set with the installer.
 - python-version being 2.7, 3.5 or 3.7
-
 
 
 **Done**
