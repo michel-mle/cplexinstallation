@@ -1,7 +1,7 @@
 
-# Installing CPLEX 12.8 on Windows and Mac OS for Python usage
+# Using Python with CPLEX 12.8 on Windows and Mac OS
 
-This is for Python usage.
+This gives instruction to install the library docplex.
 
 ## On Windows
 
